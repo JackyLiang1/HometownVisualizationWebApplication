@@ -1,0 +1,89 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1030px !important; } }
+.navbar .navbar-nav {
+    text-align: center; }
+.navbar .navbar-nav li a {
+    padding: 15px 30px; }
+.navbar .navbar-nav li:hover, .navbar .navbar-nav li.selected {
+    background-color: #00ff00; }
+.navbar .navbar-nav li:hover a, .navbar .navbar-nav li.selected a {
+    color: #fff; }
+.navbar .navbar-brand {
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    padding: 5px; }
+.navbar .navbar-brand img {
+    max-height: 100%;
+    max-width: 100%; }
+
+body {
+    padding-top: 70px; }
+
+img {
+    width: 100%; }
+
+a {
+    color: #333; }
+
+.main-body {
+    margin-top: 20px; }
+
+.carousel-caption {
+    color: yellow;
+    font-size: 20px; }
+
+.text-indent {
+    text-indent: 28px; }
+
+.text-title {
+    color: #3c763d;
+    font-size: 18px;
+    font-weight: bold; }
+
+
+.btn-check-more {
+    color: green;
+    float: right;
+    margin-top: -5px; }
+
+a {
+    text-decoration: none; }
+a:hover {
+    text-decoration: none; }
+
+.intro-content .title {
+    font-size: 25px;
+    padding: 10px 0 0 10px; }
+
+.intro-text {
+    text-indent: 30px;
+    padding: 0 10px 10px;
+    line-height: 25px; }
+
+.intro-map {
+    width: 730px;
+    height: 450px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#r-result{
+    margin-bottom: 100px;
+}
+#BigPic1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+#BigPic2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    text-align: center;
+}
+#BigPic{
+    width: 800px;
+    height: 400px;
+    margin-left: 50px;
+
+}

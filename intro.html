@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="icon" href="images/shenzhen.jpg"/>
+  <title>关于深圳</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!--百度地图-->
+  <script src="http://api.map.baidu.com/api?v=2.0&ak=ok8PRZkbgozgGkRQSKAzKQzpeIpGqoPe"
+          type="text/javascript"></script>
+</head>
+<body>
+<!--//导航条-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img class="center" src="images/shenzhen.jpg" alt=""></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">首页</a></li>
+        <li  class="selected"><a href="intro.html">简介</a></li>
+        <li><a href="leave-word.html">留言</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row main-body">
+    <div class="bigpic">
+      <div id="BigPic1">
+        <img id='BigPic' src= 'images/BigPic.jpg' />
+      </div>
+      <div id="BigPic2">
+        <input type="button" value="+"  onclick="big()" />
+        <input type="button" value="-"  onclick="small()" />
+      </div>
+    </div>
+
+    <!--简介-->
+    <div class="col-md-9 col-md-push-2">
+      <div class="intro-group">
+        <p class="text-title">深圳市</p>
+        <div class="intro-text">
+          深圳，简称“深”，别称鹏城，广东省辖地级市，是广东省副省级市，国家计划单列市，超大城市，国务院批复确定的中国经济特区、全国性经济中心城市、国际化城市、科技创新中心、区域金融中心、商贸物流中心。全市下辖9个行政区和1个新区，总面积1997.47平方千米，建成区面积927.96平方千米。根据第七次人口普查数据，截至2020年11月1日零时，深圳市常住人口为1767.38万人。2021年，全市地区生产总值为30664.85亿元。
+        </div>
+        <div class="intro-text">
+          深圳地处中国华南地区、广东南部、珠江口东岸，介于东经113°43′—114°38′，北纬22°24′—22°52′之间。东临大亚湾和大鹏湾，西濒珠江口和伶仃洋，南隔深圳河与香港相连，是粤港澳大湾区四大中心城市之一、国家物流枢纽、国际性综合交通枢纽、国际科技产业创新中心 、中国三大全国性金融中心之一，并全力建设中国特色社会主义先行示范区、综合性国家科学中心、全球海洋中心城市。
+        </div>
+        <div class="intro-text">
+          深圳最早的前身为广州府宝安县，深圳之名始见史籍于明朝永乐八年（1410年），1979年成立深圳市，1980年成为中国设立的第一个经济特区，中国改革开放的窗口和新兴移民城市，创造了举世瞩目的“深圳速度”，被誉为“中国硅谷”。
+        </div>
+        <div class="intro-text">
+          2021年，华顿经济研究院发布的中国百强城市排行榜中，深圳排名第三。
+        </div>
+      </div>
+      <div class="intro-group">
+        <p class="text-title">行政区划</p>
+        <div class="intro-text">
+          截至2021年10月，深圳下辖9个市辖区：罗湖区、福田区、 南山区、宝安区、龙岗区、盐田区、龙华区、坪山区、光明区。
+        </div>
+      </div>
+      <div class="intro-group">
+        <p class="text-title">地理位置</p>
+        <div class="intro-text">
+          深圳市是中国南部海滨城市，毗邻香港。位于北回归线以南，东经113°43′至114°38′，北纬22°24′至22°52′之间。地处广东省南部，珠江口东岸，东临大亚湾和大鹏湾；西濒珠江口和伶仃洋；南边深圳河与香港相连；北部与东莞、惠州两城市接壤。全市面积1997.47平方千米。
+        </div>
+      </div>
+      <div class="intro-map" id="myMap" ></div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+<script>
+
+</script>
+<script>
+    app.map();
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="images/shenzhen.jpg"/>
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>留言</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/leave-word.css">
+
+</head>
+<body>
+<!--//导航条-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img class="center" src="images/shenzhen.jpg" alt=""></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="intro.html">简介</a></li>
+        <li  class="selected"><a href="leave-word.html">留言</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row main-body">
+    <!--简介-->
+    <div class="col-md-9 col-md-push-2">
+      <div class="leave-word-content">
+
+        <form class="leave-word-form" >
+          <p class="leave-word-title text-title">请留言</p>
+          <div class="input-group row">
+            <div class="input-title col-xs-push-10">
+              <span>*</span>
+              <label for="inputName">姓名 : </label>
+            </div>
+            <input class="input-content col-xs-7" id="inputName" name="lname"
+                   type="text" required="required" placeholder="请输入名字">
+          </div>
+          <div class="input-group row">
+            <div class="input-title col-xs-push-10">
+              <span>*</span>
+              <label for="inputMessage">反馈内容 : </label>
+            </div>
+            <textarea class="input-content col-xs-8"  id="inputMessage"required="required"></textarea>
+          </div>
+          <div class="input-group row">
+            <button type="button" class="btn-submit col-xs-offset-0"  id="btn"  >
+              提交
+            </button>
+
+
+          </div>
+          <div id="txt">
+            <p>评论：</p>
+            <ul id="pinglun"></ul>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+<script src="js/leave_word.js"></script>
+</body>
+</html>
